@@ -35,18 +35,6 @@ Optionnel : [installer Git](https://git-scm.com/downloads).
 1. Télécharger (ou cloner via git) l'environnement de développement via [Github](https://github.com/ExLibrisGroup/primo-explore-devenv)
 
 	- `git clone https://github.com/ExLibrisGroup/primo-explore-devenv.git`
-
-2. [Installer nodejs v6.9.2](https://nodejs.org/download/release/v6.9.2/)
-
-3. Installer Npm : `npm install npm@3.3.12 -g`
-
-4. Installer Gulp : `npm install -g gulp`
-
-5. Aller dans le dossier racine de l'environnement de dev : `cd /path/to/your/project/folder/primo-explore-devenv`
-
-6. Installer les dépendances nodesjs (ie packages npm) : `npm install`
-
-7. Télécharger ou cloner le [primo-explore-package](https://github.com/ExLibrisGroup/primo-explore-package "primo-explore-package repository")) depuis Github et le placer dans le dossier `/path/to/your/project/folder/primo-explore-devenv/primo-explore/custom`
 	- choisir de préférence la dernière version stable (dernier tag)
 
 ```sh
@@ -59,6 +47,18 @@ $ latestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
 # Checkout the latest tag
 $ git checkout $latestTag
 ```
+
+2. [Installer nodejs v6.9.2](https://nodejs.org/download/release/v6.9.2/)
+
+3. Installer Npm : `npm install npm@3.3.12 -g`
+
+4. Installer Gulp : `npm install -g gulp`
+
+5. Aller dans le dossier racine de l'environnement de dev : `cd /path/to/your/project/folder/primo-explore-devenv`
+
+6. Installer les dépendances nodesjs (ie packages npm) : `npm install`
+
+7. Télécharger ou cloner le [primo-explore-package](https://github.com/ExLibrisGroup/primo-explore-package "primo-explore-package repository")) depuis Github et le placer dans le dossier `/path/to/your/project/folder/primo-explore-devenv/primo-explore/custom`
 
 8. Renommer ce dossier en fonction de l'identifiant de votre vue Primo
 
