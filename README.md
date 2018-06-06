@@ -46,7 +46,7 @@ Optionnel : [installer Git](https://git-scm.com/downloads).
 
 6. Installer les dépendances nodesjs (ie packages npm) : `npm install`
 
-7. Téclécharger ou cloner le [primo-explore-package](https://github.com/ExLibrisGroup/primo-explore-package "primo-explore-package repository")) depuis Github et le placer dans le dossier `/path/to/your/project/folder/primo-explore-devenv/primo-explore/custom`
+7. Télécharger ou cloner le [primo-explore-package](https://github.com/ExLibrisGroup/primo-explore-package "primo-explore-package repository")) depuis Github et le placer dans le dossier `/path/to/your/project/folder/primo-explore-devenv/primo-explore/custom`
 	- choisir de préférence la dernière version stable (dernier tag)
 
 ```sh
