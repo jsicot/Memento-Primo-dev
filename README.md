@@ -194,7 +194,7 @@ La console web permet d'avoir accès à une partie du code source = **documentat
 
 ```js
 angular.reloadWithDebugInfo(); // important !! pour lancer primo en mode debug. A exécuter à chaque utilisation.
-angular.element($0).scope().$ctrl
+angular.element($0).scope().$ctrl //apres avoir inspecté une directive
 
 ```
 
