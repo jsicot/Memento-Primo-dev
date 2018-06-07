@@ -456,6 +456,8 @@ import { sfxHoldings } from './sfxHoldings.module';
 	}]);
 ```
 
+**Utile** :  Dépôt Github proposant un environnement de dev pour écrire des plugins : https://github.com/alliance-pcsg/primo-plugin-devenv
+
 ### Personnalisation du HTML
 
 Suit une convention de nommage. Exemples pour modifier la page d'accueil :
