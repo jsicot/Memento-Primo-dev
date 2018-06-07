@@ -198,7 +198,7 @@ angular.element($0).scope().$ctrl //apres avoir inspecté une directive
 
 ```
 
-L'ensemble des directives en **<prm-xxx-after>** permettent de créer un nouveau component.
+L'ensemble des directives en **prm-xxx-after** permettent de créer un nouveau component.
 
 Utiliser le **bookmarklet** fourni dans le customisation package : `showDirectives.txt` pour afficher l'ensemble des directives disponibles sur une page données.
 
@@ -251,13 +251,13 @@ function getComponentCtrl(componentName) {
 }
 ```
 
-###### Récupérer un ensemble de résultats depuis la console web
+###### exemple : récupérer un ensemble de résultats depuis la console web
 
 ```js
 var prmSearchEl = angular.element(document.querySelector('prm-search'));
 var prmSearchScope = prmSearchEl.scope();
 var resultSet = prmSearchScope.$$childTail.$ctrl.searchResults;
-console.log(resultSet); // Tous les résultat
+console.log(resultSet); // Tous les résultats
 console.log(resultSet[0]["@id"]); // URI du premier résultat
 console.log(resultSet[0].pnx.display.title); // Titre du premier résultat
 ```
