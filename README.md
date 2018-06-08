@@ -206,6 +206,8 @@ Utiliser le **bookmarklet** fourni dans le customisation package : `showDirectiv
 javascript:(function(){var%20script=document.createElement(%22SCRIPT%22);script.src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';script.type='text/javascript';document.getElementsByTagName(%22head%22)[0].appendChild(script);var%20checkReady=function(callback){if(window.jQuery){callback(jQuery)}else{window.setTimeout(function(){checkReady(callback)},100)}};checkReady(function($){$('primo-explore').find('[parent-ctrl=%22$ctrl%22]').each(function(){$(this).append('<a%20href=%22#%22%20title=%22'+$(this)[0].outerHTML.replace(/</g,'').replace(/>/g,'').replace(/\//g,'').replace(/%22/g,'').replace(/parent-ctrl./g,'').replace(/-([a-z])/g,function(m,w){return%20w.toUpperCase()}).replace(/\$ctrl(.*)/g,'')+'%22%20style=%22display:block;height:auto;color:black;%22>Hover%20for%20id</a>')})})})();
 ```
 
+Autre bookmarklet qui permet d'avoir accès répidement au pnx id, à la noctice source et au pnx : https://github.com/gabriele-h/PrimoNUIShow
+
 ##### Exemple : récupérer l'élément puis le controleur de **prm-search-bar**
 
 ```js
@@ -498,7 +500,7 @@ Un service qui sera probablement hébergé directement par ExLibris.
 
 
 
-## Sources
+## Sources utilisées 
 
 - [Google doc : New Primo UI cookbook](https://docs.google.com/document/d/1z1D5II6rhRd2Q01Uqpb_1v6OEFv_OksujEZ-htNJ0rw/edit#heading=h.xtcb9acz0ly2)
 - [Google doc : Thoughts, ideas, tricks on the new Primo UI](https://docs.google.com/document/d/1pfhN1LZSuV6ZOZ7REldKYH7TR1Cc4BUzTMdNHwH5Bkc/edit#heading=h.5jv2vx23tkuk)
@@ -510,6 +512,10 @@ Un service qui sera probablement hébergé directement par ExLibris.
 	- [Primo New UI Day 2 - Basic Javascript](https://www.youtube.com/watch?v=kcWOlxs7VKI)
 	- [Primo New UI Day 3 - Service Pages](https://www.youtube.com/watch?v=B9eR9jaC5lc)
 	- [Primo Hackathon Day 4 - Primo Roadmap and Lightning Lalk](https://www.youtube.com/watch?v=dQR_LOleeHI)
+-  2 hackathons : 
+	- https://github.com/muratseyhan/primo-explore-demo
+	- https://github.com/uleodolter/primo-new-ui-hackathon
+
 
 
 ## Exemples d'institutions utilisant la NUI + dépôts Github
