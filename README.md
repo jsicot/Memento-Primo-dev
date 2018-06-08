@@ -474,7 +474,11 @@ Suit une convention de nommage. Exemples pour modifier la page d'accueil :
 Simplement déposer les images dans le dossier `img`.
 Exemple pour les images des types de document  : icon_<resource-type>.png (se référer aux **code tables** dans le backend Primo).
 
-**Astuce** : les icônes utilisées dans l'UI Primo sont définies dans le fichier `webpack:///www/components/appConfig/iconConfig.ts` (accès via console web)
+**Astuce** : 
+
+- les icônes utilisées dans l'UI Primo sont définies dans le fichier `webpack:///www/components/appConfig/iconConfig.ts` (accès via console web)
+- la source svg des icônes est disponible au chemin : `/primo-explore/img/svg/svg-primo-ui.svg`
+- pour appeler une icone :  `<prm-icon icon-type="{type}" svg-icon-set="{iconSet}" icon-definition="{icon}"></prm-icon-after>`
 
 
 ### Générer l'archive de son customization package pour l'uploader dans le backend Primo
