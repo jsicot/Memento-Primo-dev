@@ -470,6 +470,13 @@ Suit une convention de nommage. Exemples pour modifier la page d'accueil :
 
 **Astuce** : les templates de primo sont accessibles depuis la **console web > sources > primo-explore > lib > templates.js**
 
+Il est possible **d'outrepasser n'importe quel template** de cette liste en utilisant la méthode suivante : 
+
+```js
+angular.module('primo-explore.config').run(['$templateCache', function($templateCache) {
+    $templateCache.put('components/search/searchBar/search-bar.html','<votre-code></votre-code-htm>');
+}]);
+```
 
 ### Personnalisation des images (logo, images pour les types de document, favicon)
 
