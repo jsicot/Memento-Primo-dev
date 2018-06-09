@@ -278,7 +278,7 @@ Créer un fichier **main.js** (en copiant le contenu du custom.js) dans le dossi
 Lancer le serveur local avec **Browserify** : `gulp run --view <VIEW_CODE> --browserify`
 
 Cela permet d'utiliser l'environnement de développement avec la méthode ES6. 
-Le main.js et tout code javascript est automatiquement transpilé dans custom.js avec rechargement navigateur pour voir les modifications en live.
+Le main.js et tout code javascript sont automatiquement transpilés dans le custom.js avec rechargement navigateur pour voir les modifications en live.
 
 ##### Exemple : installation du module [Unpaywall](https://www.npmjs.com/package/primo-explore-oadoi-link)
 
