@@ -62,7 +62,7 @@ $ git checkout $latestTag
 
 8. Renommer ce dossier en fonction de l'identifiant de votre vue Primo
 
-9.  Éditer le fichier de configuration Gulp (dans `/path/to/your/project/folder/primo-explore-devenv/gulp/config.js`) pour changer le **proxy server** : `var PROXY_SERVER = http://your-server:your-port`. 
+9.  Éditer le fichier de configuration Gulp (dans `/path/to/your/project/folder/primo-explore-devenv/gulp/config.js` ([ici](https://github.com/ExLibrisGroup/primo-explore-devenv/blob/master/gulp/config.js#L150)) pour changer le **proxy server** : `var PROXY_SERVER = http://your-server:your-port`. 
 	- Utiliser l'url de l'instance production ou de la sandbox de votre frontend Primo. La vue déclarée ci-dessus doit exister. 
 	- Si votre instance est en *https*, indiquez cette dernière avec le port, comme ceci : `var PROXY_SERVER = https://your-server:443`
 
