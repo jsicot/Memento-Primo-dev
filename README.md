@@ -503,7 +503,7 @@ Le fichier zip est localisé dans `/path/to/your/project/folder/primo-explore-de
 Proposer un éditeur de vue avec une IHM, le tout adossé à un "app store" pour étendre les fonctionnalités de Primo à l'aide de modules installable en un clic.
 Un service qui sera probablement hébergé directement par ExLibris.
 
-[Démonstrateur](http://ec2-18-217-175-187.us-east-2.compute.amazonaws.com:8004/)
+[Primo Studio](http://primo-studio.exlibrisgroup.com/)
 
 [webinar](https://www.youtube.com/watch?v=_q8Fu2r_gH0&feature=youtu.be)
 
