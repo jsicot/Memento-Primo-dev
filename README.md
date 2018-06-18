@@ -571,3 +571,4 @@ Un service qui sera probablement hébergé directement par ExLibris.
 
 - **Voir aussi** : https://docs.google.com/document/d/1JqSNx6eDe_sNPz9K8sZtDRhQWbzyaQz0mpLWqmqOhk0/edit#
 - [ELUNA : List of Primo Sites with New UI](https://el-una.org/working-groups/primo/primo-sites/)
+- [Slack #primodev](https://igelu-eluna-siwg.slack.com/join/shared_invite/enQtMzgwMDIzOTk3NTU1LWVkZGYyMDVkZjk0Y2YwZWYzMTVlNTUxMDI3YTYzOGUwY2MzMGMxZTFiODY5YzdhNzEyMzU0ODhkNWI2MjRkM2M)
