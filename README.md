@@ -171,6 +171,17 @@ L'ensemble des fichiers **css** présents dans le dossier `primo-explore/custom/
 
 Il est également possible d'utiliser un preprocesseur CSS de type [Sass](https://sass-lang.com/install) afin de mieux organiser ses développements sur les css.
 
+### Utiliser SCSS/SASS avec Gulp
+
+Créez et placez vos fichiers .scss dans un dossier scss à la racine de votre custom package view `primo-explore/custom/<VIEW_CODE>/scss`.
+Ensuite pour compiler automatiquement vos fichiers .scss, vous pouvez utiliser l'option `--useScss` avec Gulp :
+
+```
+> gulp run --view <VIEW_CODE> --useScss --browserify
+```
+
+### Extraire les fichiers SCSS/SASS sources avec Gulp
+
 Possibilité d'extraire les fichier .scss natifs de primo avec la ligne de commande suivante :
 
 `gulp extract-scss-files`
