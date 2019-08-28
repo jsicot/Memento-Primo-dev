@@ -505,6 +505,10 @@ Exemple pour les images des types de document  : icon_<resource-type>.png (se r�
 
 - `gulp create-package`
 
+Si vous avez utilisé des directives ```import``` pour appeler les différents packages JS, il peut être nécessaire de demander à gulp de rendre le code compatible avec le navigateur par l'utilisation du paramètre ```--browserify```. En l'absence de cette option, le navigateur retournera des erreurs indiquant qu'il ne connaît pas la fonction ```require``` :
+
+- `gulp create-package` --browserify
+
 Choisir le numéro correspondant au nom de votre vue et cliquer sur entrée.
 Le fichier zip est localisé dans `/path/to/your/project/folder/primo-explore-devenv/packages`
 
