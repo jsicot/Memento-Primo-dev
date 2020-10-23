@@ -180,6 +180,14 @@ Ensuite pour compiler automatiquement vos fichiers .scss, vous pouvez utiliser l
 > gulp run --view <VIEW_CODE> --useScss --browserify
 ```
 
+Alternative utilisation de node-sass :
+
+Depuis la racine de primo-explore-devenv
+
+```
+./node_modules/.bin/node-sass --watch --source-map true --source-map-contents --output primo-explore/custom/<VIEW_CODE>/css primo-explore/custom/<VIEW_CODE>/css/sass/main.scss
+```
+
 ### Extraire les fichiers SCSS/SASS sources avec Gulp
 
 Possibilité d'extraire les fichier .scss natifs de primo avec la ligne de commande suivante :
