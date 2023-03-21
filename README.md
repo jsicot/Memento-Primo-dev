@@ -11,7 +11,7 @@
 - Comprendre la notion de [*directive*](https://docs.angularjs.org/guide/directive) dans Angular JS. 
 	- Les *directives* sont utilisées lorsque l'on souhaite modifier ou transformer le DOM (Document Object Model).
 - Appréhender le framework [Material Design d'Angular](https://material.angularjs.org/latest/) : module d'intégration qui permet d'obtenir facilement une interface responsive
-- Savoir utiliser une console web (de préférence celle du navigateur Chrome)
+- Savoir utiliser une console web (de préférence celle du navigateur Chrome).
 
 ## Techonologies utilisées
 - [NodeJS](https://nodejs.org/fr/) : framework de développement Javascript
